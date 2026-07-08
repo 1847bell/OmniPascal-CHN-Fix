@@ -1,0 +1,7 @@
+.agents/
+.codegraph/
+PROJECT_INDEX.md
+tmp_unicode_path_test/
+node_modules/
+*.vsix
+!omnipascal-0.19.3-gbk-path-fix.vsix
