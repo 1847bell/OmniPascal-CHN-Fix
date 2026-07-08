@@ -1,5 +1,15 @@
 # OmniPascal 中文路径修复版
 
+[中文说明](Readme.md) | [English](Readme_en.md) | [OmniPascal](Readme_origin.md)
+
+## 致谢与声明
+
+首先感谢 OmniPascal 原作者和贡献者。这个扩展为 Delphi 与 Free Pascal 用户在 VS Code 中提供了非常实用的代码补全、跳转、符号索引和语法支持；这个仓库能够存在，也是建立在原作者长期工作的基础上。
+
+本仓库不是 OmniPascal 官方项目，也无意侵犯原作者的著作权或其他权益。我只是因为在中文路径环境中遇到了乱码问题，而原扩展已经长期停止维护，所以才将 VSIX 解包后做了最小范围的兼容性修补，并公开出来方便有相同问题的用户临时使用。
+
+如果原作者、权利人或相关维护者认为本仓库不合适，请联系我；我会配合说明、调整或随时删除本仓库。
+
 这是基于 `Wosi.omnipascal 0.19.0` VSIX 解包后的非官方修复版本，主要用于解决我在中文 Windows 环境中使用 OmniPascal 时遇到的中文路径乱码问题。
 
 如果您在使用过程中没有遇到中文路径问题，或者您不是中文环境用户，建议继续使用原版 OmniPascal。本仓库只是针对特定使用场景的兼容性修补，不是原项目的正式续作。
@@ -61,6 +71,4 @@ code --install-extension .\omnipascal-0.19.3-gbk-path-fix.vsix --force
 ## 说明
 
 本仓库不是 OmniPascal 官方项目，只是一个面向中文路径问题的兼容性修补版本。所有原始功能和二进制服务端仍来自原扩展包。
-
-英文说明见：[Readme_en.md](Readme_en.md)
 

@@ -1,3 +1,7 @@
+[中文说明](Readme.md) | [English](Readme_en.md) | [OmniPascal](Readme_origin.md)
+
+> This file preserves the original OmniPascal README content from the unpacked VSIX. It is kept here for attribution and reference. This repository is an unofficial compatibility patch and does not claim ownership of the original OmniPascal project.
+
 # OmniPascal - Open Preview
 
 Manage your Delphi and Free Pascal code with Visual Studio Code.

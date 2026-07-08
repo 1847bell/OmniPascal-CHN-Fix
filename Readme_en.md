@@ -1,5 +1,15 @@
 # OmniPascal Chinese Path Fix
 
+[中文说明](Readme.md) | [English](Readme_en.md) | [OmniPascal](Readme_origin.md)
+
+## Acknowledgements and Notice
+
+First of all, many thanks to the original OmniPascal author and contributors. OmniPascal provides very useful Delphi and Free Pascal support in VS Code, including completion, navigation, symbol indexing, and syntax highlighting. This repository exists only because of that original work.
+
+This is not the official OmniPascal project, and I do not intend to infringe on the original author's copyright or any other rights. I unpacked and patched the VSIX only because I encountered a Chinese path encoding issue in daily use, while the original extension appears to be no longer maintained.
+
+If the original author, rights holder, or maintainers consider this repository inappropriate, please contact me. I will explain, adjust, or remove this repository at any time.
+
 This is an unofficial patched build based on the unpacked `Wosi.omnipascal 0.19.0` VSIX. It exists mainly to fix Chinese path mojibake issues that I encountered when using OmniPascal in a Chinese Windows environment.
 
 If you do not have Chinese path issues, or if you are not using a Chinese locale/environment, you should probably keep using the original OmniPascal extension. This repository is a compatibility patch for a specific problem, not an official continuation of the original project.
@@ -61,6 +71,4 @@ If you do not need this Chinese path fix, please use the original extension:
 ## Notice
 
 This repository is not the official OmniPascal project. It is only a compatibility patch for Chinese path handling. The original functionality and bundled server binaries still come from the original extension package.
-
-Chinese README: [Readme.md](Readme.md)
 
